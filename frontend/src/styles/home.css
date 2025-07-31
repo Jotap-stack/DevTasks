@@ -48,7 +48,7 @@ main {
 
 .logo {
   position: absolute;
-  top: 70px;
+  top: 130px;
   right: 700px;
   width: 400px;
   height: 200px;
@@ -71,8 +71,8 @@ h3 {
 
 .button-container {
   position: absolute;
-  top: 240px; 
-  right: 4px; 
+  top: 300px; 
+  right: 25px; 
   padding: 20px;
   display: flex; /* Alinha os botões lado a lado */
   justify-content: center; /* Centraliza os botões horizontalmente */
