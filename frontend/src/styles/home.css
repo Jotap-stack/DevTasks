@@ -74,9 +74,9 @@ h3 {
   top: 300px; 
   right: 25px; 
   padding: 20px;
-  display: flex; /* Alinha os botões lado a lado */
-  justify-content: center; /* Centraliza os botões horizontalmente */
-  gap: 10px; /* Espaço entre os botões */
+  display: flex; 
+  justify-content: center; 
+  gap: 10px; 
 }
 
 
