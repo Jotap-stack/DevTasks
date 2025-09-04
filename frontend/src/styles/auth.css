@@ -12,6 +12,7 @@ body {
 }
 
 .auth-container {
+  font-family: "Inter", sans-serif;
   background-color: white;
   padding: 60px;
   border-radius: 12px;
@@ -37,7 +38,7 @@ body {
 .auth-container form button {
   width: 100%;
   padding: 12px;
-  background-color: #2D9CDB;
+  background-color: black;
   color: white;
   font-weight: bold;
   border: none;
@@ -48,7 +49,7 @@ body {
 }
 
 .auth-container form button:hover {
-  background-color: #238ac2;
+  background-color: black;
 }
 
 .switch-link {
@@ -57,9 +58,65 @@ body {
 }
 
 .switch-link a {
-  color: #2D9CDB;
+  color: black;
   text-decoration: none;
 }
 .switch-link a:hover {
   text-decoration: underline;
+}
+
+
+.register {
+  width: 200px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+}
+
+.register:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 0 0 white;
+}
+
+.register:active {
+  transform: translateY(1px);
+  box-shadow: 0 0 0 0 white;
+}
+
+/* From Uiverse.io by SalladShooter */ 
+.register {
+  cursor: pointer;
+  padding: 1em;
+  font-size: 1em;
+  width: 200px;
+  aspect-ratio: 1/0.25;
+  color: white;
+  background: #212121;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 0.5em;
+  outline: 0.1em solid #353535;
+  border: 0;
+  box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.register:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #212121, #252525);
+  background: radial-gradient(
+    circle at bottom,
+    rgba(50, 100, 180, 0.5) 10%,
+    #212121 70%
+  );
+  outline: 0;
 }
